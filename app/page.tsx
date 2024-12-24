@@ -11,9 +11,9 @@ import { useEffect } from "react";
 
 export default function Home() {
   useEffect(() => {
-    const cursor: any = document.querySelector(".cursor");
+    const cursor: HTMLDivElement | null = document.querySelector(".cursor");
     document.addEventListener("mousemove", (e) => {
-      cursor.setAttribute(
+      cursor?.setAttribute(
         "style",
         "top: " + (e.pageY - 10) + "px; left: " + (e.pageX - 10) + "px;"
       );
