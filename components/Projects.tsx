@@ -9,8 +9,17 @@ import Tutor from "../public/tutor.png";
 import Leno from "../public/leno.png";
 import Edgeledger from "../public/edgeledger.png";
 import Hotel from "../public/hotel.png";
+import Calculator from "../public/calulator.png";
 
 const projects = [
+  {
+    title: "Calculator",
+    image: Calculator,
+    description: "Calculate your mathematical calculation",
+    technologies: ["Tailwind CSS", "React"],
+    liveLink: "https://calculator-lemon-sigma.vercel.app/",
+    githubLink: "https://github.com/saumya2611/calculator",
+  },
   {
     title: "Todo Application",
     image: ReactTodoItem,
@@ -80,9 +89,10 @@ const projects = [
     image: Hotel,
     description: "landing page for hotel website",
     technologies: ["HTML", "CSS", "JavaScript"],
-    liveLink: "https://vercel.com/saumya2611s-projects/hotel-website-gflq",
+    liveLink: "https://hotel-website-iota.vercel.app/",
     githubLink: "https://github.com/saumya2611/Hotel_Website",
   },
+
   // Add more projects as needed
 ];
 
