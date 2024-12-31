@@ -41,7 +41,7 @@ const projects = [
     image: TodoAppIcon,
     description: "Todo application for shopping",
     technologies: ["HTML", "CSS", "JavaScript"],
-    liveLink: "https://react-todo-eosin-alpha.vercel.app/",
+    liveLink: "https://todo-application-cyan-five.vercel.app/",
     githubLink: "https://github.com/saumya2611/Todo-Application",
   },
   {
@@ -57,8 +57,8 @@ const projects = [
     image: Property,
     description: "Search your property",
     technologies: ["HTML", "CSS", "JavaScript"],
-    liveLink: "https://project1.com",
-    githubLink: "https://github.com/username/project1",
+    liveLink: "https://search-best-property.vercel.app/",
+    githubLink: "https://github.com/saumya2611/Search-Best-Property",
   },
   {
     title: "Tutor website",
