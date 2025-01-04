@@ -10,8 +10,17 @@ import Leno from "../public/leno.png";
 import Edgeledger from "../public/edgeledger.png";
 import Hotel from "../public/hotel.png";
 import Calculator from "../public/calulator.png";
+import Typing from "../public/typing.png";
 
 const projects = [
+  {
+    title: "Typing Speed Tester",
+    image: Typing,
+    description: "Check your typing speed",
+    technologies: ["Tailwind CSS", "React"],
+    liveLink: "https://typing-speed-tester-one.vercel.app/",
+    githubLink: "https://github.com/saumya2611/Typing-Speed-Tester",
+  },
   {
     title: "Calculator",
     image: Calculator,
