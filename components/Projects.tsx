@@ -11,8 +11,17 @@ import Edgeledger from "../public/edgeledger.png";
 import Hotel from "../public/hotel.png";
 import Calculator from "../public/calulator.png";
 import Typing from "../public/typing.png";
+import Crud from "../public/crud.png";
 
 const projects = [
+  {
+    title: "Crud aplication",
+    image: Crud,
+    description: "You can add multiple users and details",
+    technologies: ["Tailwind CSS", "React", "Redux"],
+    liveLink: "https://redux-crud-iota.vercel.app/",
+    githubLink: "https://github.com/saumya2611/redux-crud",
+  },
   {
     title: "Typing Speed Tester",
     image: Typing,
