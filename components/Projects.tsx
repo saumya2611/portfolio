@@ -12,8 +12,17 @@ import Hotel from "../public/hotel.png";
 import Calculator from "../public/calulator.png";
 import Typing from "../public/typing.png";
 import Crud from "../public/crud.png";
+import Amazon from "../public/amazon.png";
 
 const projects = [
+  {
+    title: "Amazon clone",
+    image: Amazon,
+    description: "You can use for shopping",
+    technologies: ["Tailwind CSS", "React", "Redux Toolkit", "Tostify"],
+    liveLink: "https://amazon-clone-saumya.vercel.app/",
+    githubLink: "https://github.com/saumya2611/amazon_clone",
+  },
   {
     title: "Crud aplication",
     image: Crud,
